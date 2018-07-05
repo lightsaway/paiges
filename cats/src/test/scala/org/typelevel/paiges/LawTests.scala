@@ -1,4 +1,4 @@
-package org.typelevel.paiges
+package scala.meta.internal.paiges
 
 import catalysts.Platform
 import catalysts.macros.TypeTagM // need this import for implicit macros
@@ -18,8 +18,8 @@ import org.scalatest.FunSuite
 import org.scalatest.prop.Configuration
 
 class LawTests extends LawChecking with CatsDocument {
-  import org.typelevel.paiges.Generators._
-  import org.typelevel.paiges.instances._
+  import scala.meta.internal.paiges.Generators._
+  import scala.meta.internal.paiges.instances._
 
   implicit val docEq: Eq[Doc] =
     Eq.instance { (x: Doc, y: Doc) =>

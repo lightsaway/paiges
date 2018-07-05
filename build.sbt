@@ -8,7 +8,7 @@ lazy val noPublish = Seq(
   publishArtifact := false)
 
 lazy val paigesSettings = Seq(
-  organization := "org.typelevel",
+  organization := "org.scalameta",
   scalaVersion := "2.12.6",
   crossScalaVersions := Seq("2.10.7", "2.11.12", "2.12.6"),
   libraryDependencies ++= Seq(

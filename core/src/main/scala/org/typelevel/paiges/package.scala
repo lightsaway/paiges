@@ -1,4 +1,4 @@
-package org.typelevel
+package scala.meta.internal
 
 package object paiges {
 

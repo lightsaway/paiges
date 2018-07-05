@@ -3,7 +3,7 @@ package bench
 import java.util.concurrent.TimeUnit
 import org.openjdk.jmh.annotations._
 
-import org.typelevel.paiges.Doc
+import scala.meta.internal.paiges.Doc
 
 @State(Scope.Benchmark)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)

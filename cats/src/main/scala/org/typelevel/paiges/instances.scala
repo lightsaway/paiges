@@ -1,4 +1,4 @@
-package org.typelevel.paiges
+package scala.meta.internal.paiges
 
 import cats.kernel.Monoid
 

@@ -1,4 +1,4 @@
-package org.typelevel.paiges
+package scala.meta.internal.paiges
 
 trait Document[A] { self =>
   def document(a: A): Doc

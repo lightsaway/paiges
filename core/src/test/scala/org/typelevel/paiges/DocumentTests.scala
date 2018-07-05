@@ -1,4 +1,4 @@
-package org.typelevel.paiges
+package scala.meta.internal.paiges
 
 import org.scalatest.FunSuite
 import org.scalatest.prop.PropertyChecks._
